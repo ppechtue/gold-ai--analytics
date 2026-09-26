@@ -18,7 +18,7 @@ def get_secret(name):
     return os.getenv(name, "").strip()
 
 
-API_KEY = get_secret("FIREBASE_API_KEY")
+API_KEY = get_secret("AIzaSyCcqbO_xyEtGFVh4ipzRfsbWctrpsuQLmA")
 BASE_URL = "https://identitytoolkit.googleapis.com/v1/accounts"
 
 ERROR_MESSAGES = {
